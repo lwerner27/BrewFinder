@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="A web app designed to help you find a brewery near you.">
+		<title>brewFinder</title>
+		<link rel="icon" type="image/x-icon" href="./assets/images/hops-favicon.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One" rel="stylesheet">
+		<link rel="stylesheet" href="./assets/styles/style.css">
+	</head>
+	<body class="#ffffff grey lighten-3">
+		<main>
+			<div class="parallax-container">
+				<div class="parallax">
+			<img class="responsive-img" src="assets/images/alcohol-ale-bar-159291.jpg" id="coverImg">
+				</div>
+
+				<header class="container center-align">
+					<div class="row">
+						<div class="col l12">
+						<h1 class="#f5f5f5 grey-text text-lighten-4 center-align
+	" id="mainHeader">brewFinder</h1>
+						</div>
+					</div>
+				</header>
+			</div>
+
+			<div class="section #ffffff grey lighten-3">
+				<div class="row container center-align">
+					<h2 class="header">Search for Your Local Breweries</h2>
+					<form action="search">
+						<div class="row">
+							
+							
+									<div class="input-field col m5">
+
+										 <i class="material-icons prefix">location_city</i>
+										 <input id="searchField" type="text" class="validate">
+         								 <label for="searchField">Enter City</label>
+									</div>
+									<div class="input-field col m5">
+										<i class="material-icons prefix">map</i>
+                    					<input id="icon_prefix" type="text" class="validate">
+          								<label for="icon_prefix">Enter Miles Radius</label>
+									</div>
+									<div class="col m2">
+										<button class="btn btn-large waves-effect #212121 grey darken-2" type="submit" id="searchButton" data-search="">Search</button>
+									</div>
+						</div>
+					</form>
+				<div class="row center-align">
+					<div class="input-field col m12">
+	                  <button class="btn btn-large waves-effect #212121 grey darken-2" type="button" id="current-location"><span>Click for current location</span><i id="targetIcon" class="medium material-icons">my_location</i></button>
+	                </div>
+				</div>
+				</div>
+			</div>
+			<section>
+				<div id="mainContent">
+					<div class="#ffffff grey lighten-3 container" id="breweryElement">
+						<!-- New Brewery Rows Go Here -->
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="page-footer #212121 grey darken-2">
+        <div class="footer-copyright">
+            <div class="container">
+            © 2018 Copyright Text
+
+            </div>
+          </div>
+       
+			</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+		<script src="./assets/scripts/app.js"></script>
+		
+	</body>
+</html>

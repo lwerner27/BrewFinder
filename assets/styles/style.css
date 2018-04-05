@@ -1,0 +1,140 @@
+#coverImg
+{
+    width: 100%;
+}
+
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 377px;
+}
+
+.parallax-container .parallax img {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 76px;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+
+#mainHeader {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: -4px;
+    margin-top: 13%;
+    text-shadow: 0px 1px 58px #000000;
+    font-size: 14vw;
+
+}
+
+#targetIcon {
+    margin-left: 1px;
+    font-size: 14px;
+    padding-left: 5px;
+    margin-right: -9px;
+}
+
+#current-location {
+    font-size: 15px;
+}
+
+
+h4 {
+    text-align: center;
+    font-size: 3.28rem;
+    color: #f5f5f5 !important;
+    margin: 32px 6px 25px 6px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+
+
+p {
+    color: #f5f5f5 !important;
+}
+
+
+
+
+
+#breweryElement
+{
+    max-width: 1280px;
+    width: auto;
+
+    background-color: rgba(157, 157, 51, .7);
+}
+
+.brewery-div,
+.breweryInfo
+{
+    font-size: 19px;
+/*    border-color: black;
+*/    border-width: 1px;
+    border-radius: 7px;
+    border-style: solid;
+    margin: 0% 3% 3% 3%;
+    background-color: #585858;
+    color: white;
+}
+
+
+#picture
+{
+    width: 150px;
+}
+
+img.responsive-img, video.responsive-video {
+    max-width: 78%;
+    height: auto;
+}
+
+
+.brewery-img
+{
+/*    height: 100px !important;*/
+    margin: 2%;
+    border-color: #00000014;
+    border-width: 3px;
+    border-style: solid;
+    margin-bottom: 9%;
+    margin-left: 7%;
+    border-radius: 2%;
+}
+
+footer
+{
+    text-align: center;
+}
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  /* label focus color */
+  .input-field input:focus + label {
+    color: red !important;
+  }
+  /* label underline focus color */
+  .row .input-field input:focus {
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: red;
+  }
